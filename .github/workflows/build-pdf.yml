@@ -1,0 +1,52 @@
+name: Build PDFs and Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-lang-cyrillic fonts-dejavu
+
+      - name: Build PDFs
+        run: bash scripts/build-pdfs.sh pdfs
+
+      - name: Upload PDFs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          path: pdfs/
+
+  release:
+    needs: build
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Set release tag
+        id: meta
+        run: echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Download PDFs artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pdfs
+          path: pdfs/
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release-${{ steps.meta.outputs.date }}
+          name: "Release ${{ steps.meta.outputs.date }}"
+          files: pdfs/*
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
