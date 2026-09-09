@@ -16,7 +16,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-lang-cyrillic fonts-dejavu
+          sudo apt-get install -y fontconfig pandoc texlive-xetex texlive-lang-cyrillic fonts-dejavu
+          fc-cache -f
 
       - name: Build PDFs
         run: bash scripts/build-pdfs.sh pdfs
