@@ -1,0 +1,7 @@
+\usepackage{fvextra}
+\AtBeginDocument{%
+  \renewenvironment{verbatim}{\Verbatim[breaklines,breakanywhere,breakautoindent=false]}{\endVerbatim}%
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,breakanywhere,breakautoindent=false,commandchars=\\\{\}}%
+  \sloppy
+  \emergencystretch=3em
+}
