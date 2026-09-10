@@ -47,14 +47,24 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -o pipefail
           TAG="release-${{ steps.meta.outputs.date }}"
+          echo "gh: $(gh --version | head -1)"
+          echo "token set: $([ -n "$GH_TOKEN" ] && echo yes || echo no)"
+          gh auth status 2>&1 | sed 's/^/auth: /'
           gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
           mapfile -t PDFS < <(find pdfs -type f -name '*.pdf' | sort)
           echo "Found ${#PDFS[@]} PDFs"
           if [ "${#PDFS[@]}" -eq 0 ]; then
             echo "::error::No PDFs found in pdfs/"
+            find pdfs -maxdepth 3 | head -20
             exit 1
           fi
-          gh release create "$TAG" "${PDFS[@]}" \
+          OUT=$(gh release create "$TAG" "${PDFS[@]}" \
             --title "Release ${{ steps.meta.outputs.date }}" \
-            --notes "PDF-версии мануалов"
+            --notes "PDF-версии мануалов" 2>&1); R=$?
+          if [ $R -ne 0 ]; then
+            printf '::error title=gh release create::%s\n' "$(echo "$OUT" | tail -n 20 | tr '\n' ' ' | tr '%' '%%')"
+            exit $R
+          fi
+          echo "$OUT"
