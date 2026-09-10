@@ -42,12 +42,12 @@ jobs:
           name: pdfs
           path: pdfs/
 
-      - name: Create release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: release-${{ steps.meta.outputs.date }}
-          name: "Release ${{ steps.meta.outputs.date }}"
-          files: pdfs/*
-          make_latest: true
+      - name: Publish release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="release-${{ steps.meta.outputs.date }}"
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" pdfs/* \
+            --title "Release ${{ steps.meta.outputs.date }}" \
+            --notes "PDF-версии мануалов"
