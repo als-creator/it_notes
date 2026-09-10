@@ -33,6 +33,8 @@ jobs:
     needs: build
     runs-on: ubuntu-22.04
     steps:
+      - uses: actions/checkout@v4
+
       - name: Set release tag
         id: meta
         run: echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
@@ -47,24 +49,30 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          set -o pipefail
+          set +e
+          esc() { sed -E 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g'; }
           TAG="release-${{ steps.meta.outputs.date }}"
-          echo "gh: $(gh --version | head -1)"
-          echo "token set: $([ -n "$GH_TOKEN" ] && echo yes || echo no)"
+          echo "gh_ver=$(gh --version 2>&1 | head -1)"
+          echo "token_len=${#GH_TOKEN}"
           gh auth status 2>&1 | sed 's/^/auth: /'
-          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          echo "auth_code=$?"
+          gh release delete "$TAG" --yes --cleanup-tag >/dev/null 2>&1
           mapfile -t PDFS < <(find pdfs -type f -name '*.pdf' | sort)
-          echo "Found ${#PDFS[@]} PDFs"
+          echo "found=${#PDFS[@]}"
           if [ "${#PDFS[@]}" -eq 0 ]; then
-            echo "::error::No PDFs found in pdfs/"
-            find pdfs -maxdepth 3 | head -20
+            echo "::error title=no pdfs in pdfs/::$(find pdfs -maxdepth 3 | tr '\n' ' ')"
             exit 1
           fi
-          OUT=$(gh release create "$TAG" "${PDFS[@]}" \
+          OUT="$(gh release create "$TAG" "${PDFS[@]}" \
             --title "Release ${{ steps.meta.outputs.date }}" \
-            --notes "PDF-версии мануалов" 2>&1); R=$?
-          if [ $R -ne 0 ]; then
-            printf '::error title=gh release create::%s\n' "$(echo "$OUT" | tail -n 20 | tr '\n' ' ' | tr '%' '%%')"
-            exit $R
-          fi
+            --notes "PDF-версии мануалов" 2>&1)"
+          CODE=$?
+          echo "release_code=$CODE"
+          echo "--- gh output start ---"
           echo "$OUT"
+          echo "--- gh output end ---"
+          if [ $CODE -ne 0 ]; then
+            echo "::error title=gh release create failed ($CODE)::$(echo "$OUT" | tail -n 12 | esc)"
+            exit $CODE
+          fi
+          echo "release_ok=$(gh release view "$TAG" >/dev/null 2>&1 && echo yes || echo no)"
