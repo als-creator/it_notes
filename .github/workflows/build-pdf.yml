@@ -37,7 +37,9 @@ jobs:
 
       - name: Set release tag
         id: meta
-        run: echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+        run: |
+          echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+          echo "shorthash=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
 
       - name: Download PDFs artifact
         uses: actions/download-artifact@v4
@@ -50,29 +52,35 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set +e
-          esc() { sed -E 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g'; }
-          TAG="release-${{ steps.meta.outputs.date }}"
-          echo "gh_ver=$(gh --version 2>&1 | head -1)"
-          echo "token_len=${#GH_TOKEN}"
-          gh auth status 2>&1 | sed 's/^/auth: /'
-          echo "auth_code=$?"
-          gh release delete "$TAG" --yes --cleanup-tag >/dev/null 2>&1
+          TAG="release-${{ steps.meta.outputs.date }}-${{ steps.meta.outputs.shorthash }}"
+          echo "tag=$TAG"
           mapfile -t PDFS < <(find pdfs -type f -name '*.pdf' | sort)
           echo "found=${#PDFS[@]}"
           if [ "${#PDFS[@]}" -eq 0 ]; then
-            echo "::error title=no pdfs in pdfs/::$(find pdfs -maxdepth 3 | tr '\n' ' ')"
+            echo "::error::No PDFs in pdfs/"
+            find pdfs -maxdepth 3 | head
             exit 1
           fi
-          OUT="$(gh release create "$TAG" "${PDFS[@]}" \
+          gh release create "$TAG" \
             --title "Release ${{ steps.meta.outputs.date }}" \
-            --notes "PDF-версии мануалов" 2>&1)"
-          CODE=$?
-          echo "release_code=$CODE"
-          echo "--- gh output start ---"
-          echo "$OUT"
-          echo "--- gh output end ---"
-          if [ $CODE -ne 0 ]; then
-            echo "::error title=gh release create failed ($CODE)::$(echo "$OUT" | tail -n 12 | esc)"
-            exit $CODE
+            --notes "PDF-версии мануалов" >/dev/null 2>&1
+          if [ $? -ne 0 ]; then
+            gh release create "$TAG" \
+              --title "Release ${{ steps.meta.outputs.date }}" \
+              --notes "PDF-версии мануалов" 2>&1 | tail -8
+            exit 1
           fi
-          echo "release_ok=$(gh release view "$TAG" >/dev/null 2>&1 && echo yes || echo no)"
+          echo "release created, uploading assets"
+          ok=0
+          for attempt in 1 2 3 4 5; do
+            gh release upload "$TAG" "${PDFS[@]}" --clobber >/dev/null 2>&1
+            if [ $? -eq 0 ]; then ok=1; echo "upload_ok_attempt=$attempt"; break; fi
+            echo "upload attempt $attempt failed, retrying in 8s"
+            sleep 8
+          done
+          if [ $ok -ne 1 ]; then
+            echo "::error::Release upload failed after 5 attempts"
+            gh release upload "$TAG" "${PDFS[@]}" --clobber 2>&1 | tail -8
+            exit 1
+          fi
+          echo "assets=$(gh release view "$TAG" --json assets -q '.assets | length')"
