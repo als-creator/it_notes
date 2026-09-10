@@ -55,12 +55,16 @@ jobs:
           TAG="release-${{ steps.meta.outputs.date }}-${{ steps.meta.outputs.shorthash }}"
           echo "tag=$TAG"
           mapfile -t PDFS < <(find pdfs -type f -name '*.pdf' | sort)
-          echo "found=${#PDFS[@]}"
-          if [ "${#PDFS[@]}" -eq 0 ]; then
+          total=${#PDFS[@]}
+          echo "found=$total"
+          if [ "$total" -eq 0 ]; then
             echo "::error::No PDFs in pdfs/"
             find pdfs -maxdepth 3 | head
             exit 1
           fi
+
+          slug() { python3 -c 'import sys,re;m={"а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ё":"e","ж":"zh","з":"z","и":"i","й":"i","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s","т":"t","у":"u","ф":"f","х":"kh","ц":"ts","ч":"ch","ш":"sh","щ":"shch","ъ":"","ы":"y","ь":"","э":"e","ю":"yu","я":"ya","А":"A","Б":"B","В":"V","Г":"G","Д":"D","Е":"E","Ё":"E","Ж":"Zh","З":"Z","И":"I","Й":"I","К":"K","Л":"L","М":"M","Н":"N","О":"O","П":"P","Р":"R","С":"S","Т":"T","У":"U","Ф":"F","Х":"Kh","Ц":"Ts","Ч":"Ch","Ш":"Sh","Щ":"Shch","Ъ":"","Ы":"Y","Ь":"","Э":"E","Ю":"Yu","Я":"Ya"};n=re.sub(r"\.pdf$","",sys.argv[1]);o="".join(m.get(c,c) for c in n);o=o.replace(" ","-");o=re.sub(r"[^A-Za-z0-9._-]","-",o);o=re.sub(r"-+","-",o).strip("-");print(o+".pdf")' "$1"; }
+
           gh release create "$TAG" \
             --title "Release ${{ steps.meta.outputs.date }}" \
             --notes "PDF-версии мануалов" >/dev/null 2>&1
@@ -68,19 +72,40 @@ jobs:
             gh release create "$TAG" \
               --title "Release ${{ steps.meta.outputs.date }}" \
               --notes "PDF-версии мануалов" 2>&1 | tail -8
+            echo "::error::release create failed"
             exit 1
           fi
           echo "release created, uploading assets"
-          ok=0
-          for attempt in 1 2 3 4 5; do
-            gh release upload "$TAG" "${PDFS[@]}" --clobber >/dev/null 2>&1
-            if [ $? -eq 0 ]; then ok=1; echo "upload_ok_attempt=$attempt"; break; fi
-            echo "upload attempt $attempt failed, retrying in 8s"
-            sleep 8
+
+          failed=""
+          for f in "${PDFS[@]}"; do
+            orig="$(basename "$f")"
+            asc="$(slug "$orig")"
+            cp "$f" "/tmp/$asc"
+            ok=0
+            for attempt in 1 2 3; do
+              gh release upload "$TAG" "/tmp/$asc" >/dev/null 2>&1
+              if [ $? -eq 0 ]; then ok=1; break; fi
+              sleep 5
+            done
+            if [ $ok -eq 1 ]; then
+              echo "ok: $orig -> $asc"
+            else
+              echo "FAIL: $orig"
+              failed="$failed; $orig"
+            fi
           done
-          if [ $ok -ne 1 ]; then
-            echo "::error::Release upload failed after 5 attempts"
-            gh release upload "$TAG" "${PDFS[@]}" --clobber 2>&1 | tail -8
+
+          echo "uploaded=$(gh release view "$TAG" --json assets -q '.assets | length')"
+          if [ -n "$failed" ]; then
+            echo "::error::upload failed for:$failed"
             exit 1
           fi
-          echo "assets=$(gh release view "$TAG" --json assets -q '.assets | length')"
+
+          P="$(gh release upload "$TAG" "${PDFS[0]}" 2>&1)"
+          PC=$?
+          echo "::warning::probe original Cyrillic name upload code=$PC"
+          if [ $PC -eq 0 ]; then
+            gh release delete-asset "$TAG" "$(basename "${PDFS[0]}")" --yes >/dev/null 2>&1
+            echo "::warning::probe duplicates removed"
+          fi
