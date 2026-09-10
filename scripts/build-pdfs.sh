@@ -24,6 +24,8 @@ for md in "${files[@]}"; do
   pandoc "$md" \
     -f "markdown-tex_math_dollars-tex_math_single_backslash-tex_math_double_backslash" \
     --pdf-engine=xelatex \
+    -H scripts/pdf-header.tex \
+    -V lang=ru-RU \
     -V mainfont="DejaVu Sans" \
     -V monofont="DejaVu Sans Mono" \
     -V geometry:margin=2cm \
