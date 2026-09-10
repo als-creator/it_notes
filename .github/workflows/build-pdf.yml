@@ -26,7 +26,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pdfs
-          path: pdfs/
+          path: pdfs/*
+          if-no-files-found: error
 
   release:
     needs: build
@@ -48,6 +49,12 @@ jobs:
         run: |
           TAG="release-${{ steps.meta.outputs.date }}"
           gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
-          gh release create "$TAG" pdfs/* \
+          mapfile -t PDFS < <(find pdfs -type f -name '*.pdf' | sort)
+          echo "Found ${#PDFS[@]} PDFs"
+          if [ "${#PDFS[@]}" -eq 0 ]; then
+            echo "::error::No PDFs found in pdfs/"
+            exit 1
+          fi
+          gh release create "$TAG" "${PDFS[@]}" \
             --title "Release ${{ steps.meta.outputs.date }}" \
             --notes "PDF-версии мануалов"
