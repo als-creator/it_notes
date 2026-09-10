@@ -101,11 +101,3 @@ jobs:
             echo "::error::upload failed for:$failed"
             exit 1
           fi
-
-          P="$(gh release upload "$TAG" "${PDFS[0]}" 2>&1)"
-          PC=$?
-          echo "::warning::probe original Cyrillic name upload code=$PC"
-          if [ $PC -eq 0 ]; then
-            gh release delete-asset "$TAG" "$(basename "${PDFS[0]}")" --yes >/dev/null 2>&1
-            echo "::warning::probe duplicates removed"
-          fi
