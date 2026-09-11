@@ -2175,15 +2175,15 @@ print(f"Больше всех получает: {top['name']}")
 
 | Ресурс | Описание |
 | --- | --- |
-| [Python Tutor](https://pythontutor.com/) | Визуализатор выполнения Python-кода — пошаговое прохождение. |
-| [Exercism: Python](https://exercism.org/tracks/python) | 130+ задач по Python на Exercism с менторской проверкой. |
-| [HackerRank: Python](https://www.hackerrank.com/domains/python) | Раздел «Python 3» в тренажёре HackerRank. |
-| [Codewars](https://codewars.com/) | Катакомбы задач (kata) по Python разного уровня сложности. |
-| [LeetCode](https://leetcode.com/) | Задачи по алгоритмам и структурам данных на Python. |
-| [Codecademy: Python](https://www.codecademy.com/learn/learn-python-3) | Интерактивный курс по Python 3 от Codecademy. |
-| [Real Python](https://realpython.com/) | Уроки, статьи и видео по Python — от новичка до профессионала. |
-| [Stepik: Python](https://stepik.org/catalog/search?query=python) | Бесплатные курсы по Python на русском языке. |
-| [Google Colab](https://colab.research.google.com/) | Облачный Jupyter — запускайте Python-код без установки. |
+| Python Tutor — https://pythontutor.com/ | Визуализатор выполнения Python-кода — пошаговое прохождение. |
+| Exercism: Python — https://exercism.org/tracks/python | 130+ задач по Python на Exercism с менторской проверкой. |
+| HackerRank: Python — https://www.hackerrank.com/domains/python | Раздел «Python 3» в тренажёре HackerRank. |
+| Codewars — https://codewars.com/ | Катакомбы задач (kata) по Python разного уровня сложности. |
+| LeetCode — https://leetcode.com/ | Задачи по алгоритмам и структурам данных на Python. |
+| Codecademy: Python — https://www.codecademy.com/learn/learn-python-3 | Интерактивный курс по Python 3 от Codecademy. |
+| Real Python — https://realpython.com/ | Уроки, статьи и видео по Python — от новичка до профессионала. |
+| Stepik: Python — https://stepik.org/catalog/search?query=python | Бесплатные курсы по Python на русском языке. |
+| Google Colab — https://colab.research.google.com/ | Облачный Jupyter — запускайте Python-код без установки. |
 
 ---
 

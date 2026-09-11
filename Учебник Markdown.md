@@ -653,12 +653,12 @@ python -c "import markdown; print(markdown.markdown(open('заметка.md').re
 
 | Ресурс | Описание |
 | --- | --- |
-| [Markdown Tutorial](https://commonmark.org/help/tutorial/) | Интерактивный туториал по CommonMark — стандарту Markdown. |
-| [Dillinger](https://dillinger.io/) | Онлайн-редактор Markdown с предпросмотром и экспортом. |
-| [StackEdit](https://stackedit.io/) | Браузерный Markdown-редактор с синхронизацией и поддержкой LaTeX. |
-| [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) | Генератор таблиц Markdown — удобно создавать и редактировать. |
-| [Marp](https://marp.app/) | Презентации на Markdown — превращайте .md в слайды. |
-| [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github) | Спецификация GFM от GitHub — стандарт для README. |
+| Markdown Tutorial — https://commonmark.org/help/tutorial/ | Интерактивный туториал по CommonMark — стандарту Markdown. |
+| Dillinger — https://dillinger.io/ | Онлайн-редактор Markdown с предпросмотром и экспортом. |
+| StackEdit — https://stackedit.io/ | Браузерный Markdown-редактор с синхронизацией и поддержкой LaTeX. |
+| Markdown Table Generator — https://www.tablesgenerator.com/markdown_tables | Генератор таблиц Markdown — удобно создавать и редактировать. |
+| Marp — https://marp.app/ | Презентации на Markdown — превращайте .md в слайды. |
+| GitHub Flavored Markdown — https://docs.github.com/en/get-started/writing-on-github | Спецификация GFM от GitHub — стандарт для README. |
 
 ## Практика
 

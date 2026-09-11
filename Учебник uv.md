@@ -1292,12 +1292,12 @@ pipenv sync --dev             # воссоздать окружение ровн
 
 | Ресурс | Описание |
 | --- | --- |
-| [uv Documentation](https://docs.astral.sh/uv/) | Официальная документация uv — полный справочник команд и возможностей. |
-| [Astral Blog](https://astral.sh/blog) | Блог авторов uv — новости, релизы, сравнения с pip/poetry. |
-| [Exercism: Python](https://exercism.org/tracks/python) | Задачи по Python на Exercism — можно использовать uv для запуска. |
-| [Python Packaging Guide](https://packaging.python.org/) | Официальное руководство по упаковке Python-проектов. |
-| [PyPI](https://pypi.org/) | Индекс пакетов Python — можно искать и устанавливать через uv. |
-| [pip и uv](https://docs.astral.sh/uv/pip-compatibility/) | Сравнение команд uv и pip — быстрый переход. |
+| uv Documentation — https://docs.astral.sh/uv/ | Официальная документация uv — полный справочник команд и возможностей. |
+| Astral Blog — https://astral.sh/blog | Блог авторов uv — новости, релизы, сравнения с pip/poetry. |
+| Exercism: Python — https://exercism.org/tracks/python | Задачи по Python на Exercism — можно использовать uv для запуска. |
+| Python Packaging Guide — https://packaging.python.org/ | Официальное руководство по упаковке Python-проектов. |
+| PyPI — https://pypi.org/ | Индекс пакетов Python — можно искать и устанавливать через uv. |
+| pip и uv — https://docs.astral.sh/uv/pip-compatibility/ | Сравнение команд uv и pip — быстрый переход. |
 
 ---
 

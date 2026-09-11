@@ -348,12 +348,12 @@ systemctl start syncthing@$USER.service
 
 | Ресурс | Описание |
 | --- | --- |
-| [Obsidian Help](https://help.obsidian.md/) | Официальная документация Obsidian — полный справочник. |
-| [Obsidian Publish](https://publish.obsidian.md/) | Демо-сайты на Obsidian — примеры публичных баз знаний. |
-| [Obsidian Forum](https://forum.obsidian.md/) | Официальный форум — плагины, идеи, решение проблем. |
-| [Awesome Obsidian](https://github.com/obsidianmd/awesome-obsidian) | Подборка плагинов, тем и ресурсов для Obsidian. |
-| [Obsidian Bible](https://www.marytvb.org/obsidian/) | Справочник по Obsidian на русском языке. |
-| [PKM Courses](https://buildingasecondbrain.com/) | Курс по управлению личными знаниями (PARA, CODE). |
+| Obsidian Help — https://help.obsidian.md/ | Официальная документация Obsidian — полный справочник. |
+| Obsidian Publish — https://publish.obsidian.md/ | Демо-сайты на Obsidian — примеры публичных баз знаний. |
+| Obsidian Forum — https://forum.obsidian.md/ | Официальный форум — плагины, идеи, решение проблем. |
+| Awesome Obsidian — https://github.com/obsidianmd/awesome-obsidian | Подборка плагинов, тем и ресурсов для Obsidian. |
+| Obsidian Bible — https://www.marytvb.org/obsidian/ | Справочник по Obsidian на русском языке. |
+| PKM Courses — https://buildingasecondbrain.com/ | Курс по управлению личными знаниями (PARA, CODE). |
 
 ## Полезные ссылки
 

@@ -463,16 +463,16 @@ HEX = r"#[0-9a-fA-F]{6}"
 
 | Ресурс | Описание |
 | --- | --- |
-| [Regex Learn](https://regexlearn.com/ru/) | Интерактивный учебник на русском языке с пошаговыми уроками и упражнениями. От базы до продвинутых конструкций. |
-| [RegExr](https://regexr.com/) | Один из лучших онлайн-редакторов: подсветка совпадений, справочник, сообщество с примерами шаблонов. |
-| [regex101.com](https://regex101.com/) | Мощный плейграунд с объяснением каждого шага движка, историей совпадений и поддержкой PCRE/Python/JS/Go. |
-| [Regex Crossword](https://regexcrossword.com/) | Кроссворды-головоломки на основе regex — весёлый способ закрепить синтаксис. |
-| [RegexOne](https://www.regexone.com/) | Интерактивный курс из коротких уроков с мгновенной проверкой ответа. |
-| [Regexr Academy](https://regexr.com/learn) | Раздел с теорией и примерами на RegExr — хорошее дополнение к плейграунду. |
-| [Stepik: Регулярные выражения](https://stepik.org/course/1348010/) | Бесплатный мини-курс на Stepik с задачами и проверкой решений. |
-| [HackerRank: Regex](https://www.hackerrank.com/domains/algorithms) | Раздел «Regex» в тренажёре HackerRank — задачи разного уровня сложности. |
-| [LeetCode: Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Задача на сопоставление regex с dynamic programming — для углубления. |
-| [Python Tutor](https://pythontutor.com/) | Визуализатор выполнения Python-кода — удобно отлаживать скрипты с модулем `re`. |
+| Regex Learn — https://regexlearn.com/ru/ | Интерактивный учебник на русском языке с пошаговыми уроками и упражнениями. От базы до продвинутых конструкций. |
+| RegExr — https://regexr.com/ | Один из лучших онлайн-редакторов: подсветка совпадений, справочник, сообщество с примерами шаблонов. |
+| regex101.com — https://regex101.com/ | Мощный плейграунд с объяснением каждого шага движка, историей совпадений и поддержкой PCRE/Python/JS/Go. |
+| Regex Crossword — https://regexcrossword.com/ | Кроссворды-головоломки на основе regex — весёлый способ закрепить синтаксис. |
+| RegexOne — https://www.regexone.com/ | Интерактивный курс из коротких уроков с мгновенной проверкой ответа. |
+| Regexr Academy — https://regexr.com/learn | Раздел с теорией и примерами на RegExr — хорошее дополнение к плейграунду. |
+| Stepik: Регулярные выражения — https://stepik.org/course/1348010/ | Бесплатный мини-курс на Stepik с задачами и проверкой решений. |
+| HackerRank: Regex — https://www.hackerrank.com/domains/algorithms | Раздел «Regex» в тренажёре HackerRank — задачи разного уровня сложности. |
+| LeetCode: Regular Expression Matching — https://leetcode.com/problems/regular-expression-matching/ | Задача на сопоставление regex с dynamic programming — для углубления. |
+| Python Tutor — https://pythontutor.com/ | Визуализатор выполнения Python-кода — удобно отлаживать скрипты с модулем `re`. |
 
 ## Практика и задания
 

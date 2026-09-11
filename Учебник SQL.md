@@ -2289,13 +2289,13 @@ CREATE TABLE order_items (order_id INT REFERENCES orders(id),
 
 | Ресурс | Описание |
 | --- | --- |
-| [SQL Murder Mystery](https://mystery.knightlab.com/) | Murder-mystery игра для изучения SQL — найдите убийцу с помощью запросов. |
-| [Exercism: SQL](https://exercism.org/tracks/sql) | Задачи по SQL на Exercism с менторской проверкой. |
-| [HackerRank: SQL](https://www.hackerrank.com/domains/sql) | Раздел «SQL» в тренажёре HackerRank — запросы разной сложности. |
-| [SQLBolt](https://sqlbolt.com/) | Интерактивный учебник SQL с упражнениями — от основ до подзапросов. |
-| [SQL Academy](https://sql-academy.org/ru) | Интерактивный онлайн-курс по SQL на русском языке. |
-| [LeetCode: SQL](https://leetcode.com/problemset/database/) | Задачи по SQL на LeetCode — от Easy до Hard. |
-| [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/) | Учебник SQL с реальными данными и визуализацией. |
+| SQL Murder Mystery — https://mystery.knightlab.com/ | Murder-mystery игра для изучения SQL — найдите убийцу с помощью запросов. |
+| Exercism: SQL — https://exercism.org/tracks/sql | Задачи по SQL на Exercism с менторской проверкой. |
+| HackerRank: SQL — https://www.hackerrank.com/domains/sql | Раздел «SQL» в тренажёре HackerRank — запросы разной сложности. |
+| SQLBolt — https://sqlbolt.com/ | Интерактивный учебник SQL с упражнениями — от основ до подзапросов. |
+| SQL Academy — https://sql-academy.org/ru | Интерактивный онлайн-курс по SQL на русском языке. |
+| LeetCode: SQL — https://leetcode.com/problemset/database/ | Задачи по SQL на LeetCode — от Easy до Hard. |
+| Mode Analytics SQL Tutorial — https://mode.com/sql-tutorial/ | Учебник SQL с реальными данными и визуализацией. |
 
 ---
 

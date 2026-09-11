@@ -1320,15 +1320,15 @@ server.listen(3000, () => console.log("http://localhost:3000"));
 
 | Ресурс | Описание |
 | --- | --- |
-| [Exercism: JavaScript](https://exercism.org/tracks/javascript) | Задачи по JS на Exercism с менторской проверкой. |
-| [Exercism: TypeScript](https://exercism.org/tracks/typescript) | Задачи по TypeScript на Exercism. |
-| [freeCodeCamp](https://www.freecodecamp.org/) | Бесплатный курс с проектами по JavaScript Algorithms and Data Structures. |
-| [JavaScript.info](https://learn.javascript.ru/) | Современный учебник по JavaScript на русском языке. |
-| [TypeScript Playground](https://www.typescriptlang.org/play) | Онлайн-песочница TypeScript — экспериментируйте с кодом и типами. |
-| [Codecademy: JS](https://www.codecademy.com/learn/introduction-to-javascript) | Интерактивный курс по JavaScript от Codecademy. |
-| [Codewars](https://codewars.com/) | Катакомбы задач (kata) по JS/TS разного уровня. |
-| [LeetCode](https://leetcode.com/) | Задачи по алгоритмам с решением на JavaScript/TypeScript. |
-| [MDN Web Docs](https://developer.mozilla.org/ru/) | Справочник по JS от Mozilla — эталонная документация. |
+| Exercism: JavaScript — https://exercism.org/tracks/javascript | Задачи по JS на Exercism с менторской проверкой. |
+| Exercism: TypeScript — https://exercism.org/tracks/typescript | Задачи по TypeScript на Exercism. |
+| freeCodeCamp — https://www.freecodecamp.org/ | Бесплатный курс с проектами по JavaScript Algorithms and Data Structures. |
+| JavaScript.info — https://learn.javascript.ru/ | Современный учебник по JavaScript на русском языке. |
+| TypeScript Playground — https://www.typescriptlang.org/play | Онлайн-песочница TypeScript — экспериментируйте с кодом и типами. |
+| Codecademy: JS — https://www.codecademy.com/learn/introduction-to-javascript | Интерактивный курс по JavaScript от Codecademy. |
+| Codewars — https://codewars.com/ | Катакомбы задач (kata) по JS/TS разного уровня. |
+| LeetCode — https://leetcode.com/ | Задачи по алгоритмам с решением на JavaScript/TypeScript. |
+| MDN Web Docs — https://developer.mozilla.org/ru/ | Справочник по JS от Mozilla — эталонная документация. |
 
 ---
 
@@ -1336,23 +1336,23 @@ server.listen(3000, () => console.log("http://localhost:3000"));
 
 **Официальная документация:**
 
-- [MDN Web Docs — JavaScript (рус.)](https://developer.mozilla.org/ru/docs/Web/JavaScript) — главный справочник по языку.
-- [MDN — fetch API (рус.)](https://developer.mozilla.org/ru/docs/Web/API/Fetch_API)
-- [MDN — события (рус.)](https://developer.mozilla.org/ru/docs/Learn/JavaScript/Building_blocks/Events)
-- [TypeScript Handbook (англ.)](https://www.typescriptlang.org/docs/handbook/intro.html) — официальный учебник по TypeScript.
-- [Node.js docs](https://nodejs.org/en/docs) и [npm docs](https://docs.npmjs.com/)
+- MDN Web Docs — JavaScript (рус.) — https://developer.mozilla.org/ru/docs/Web/JavaScript — главный справочник по языку.
+- MDN — fetch API (рус.) — https://developer.mozilla.org/ru/docs/Web/API/Fetch_API
+- MDN — события (рус.) — https://developer.mozilla.org/ru/docs/Learn/JavaScript/Building_blocks/Events
+- TypeScript Handbook (англ.) — https://www.typescriptlang.org/docs/handbook/intro.html — официальный учебник по TypeScript.
+- Node.js docs — https://nodejs.org/en/docs и npm docs — https://docs.npmjs.com/
 
 **Учебные ресурсы на русском:**
 
-- [learn.javascript.ru](https://learn.javascript.ru/) — Современный учебник JavaScript (перевод JavaScript.info): основы, массив, DOM, события, fetch, асинхронность, классы.
-- [Дока (doka.guide)](https://doka.guide/) — справочник по JS с примерами и «пишем иначе» подсказками.
-- [metanit.com — TypeScript (рус.)](https://metanit.com/web/typescript/) — последовательное введение в TypeScript.
-- [Основы JavaScript — learn.javascript.ru (раздел «Основы JavaScript»)](https://learn.javascript.ru/first-steps)
+- learn.javascript.ru — https://learn.javascript.ru/ — Современный учебник JavaScript (перевод JavaScript.info): основы, массив, DOM, события, fetch, асинхронность, классы.
+- Дока (doka.guide) — https://doka.guide/ — справочник по JS с примерами и «пишем иначе» подсказками.
+- metanit.com — TypeScript (рус.) — https://metanit.com/web/typescript/ — последовательное введение в TypeScript.
+- Основы JavaScript — learn.javascript.ru (раздел «Основы JavaScript») — https://learn.javascript.ru/first-steps
 
 **Рабочие API и инструменты для практики:**
 
-- [Open-Meteo](https://open-meteo.com/) — бесплатное погодное API без ключа (используется в Проекте 4).
-- [JSON Placeholder](https://jsonplaceholder.typicode.com/) — фейк-API для тренировки fetch (посты, пользователи).
-- [MDN Playground](https://playground.learn.javascript.ru/) — онлайн-песочница для JS-примеров.
+- Open-Meteo — https://open-meteo.com/ — бесплатное погодное API без ключа (используется в Проекте 4).
+- JSON Placeholder — https://jsonplaceholder.typicode.com/ — фейк-API для тренировки fetch (посты, пользователи).
+- MDN Playground — https://playground.learn.javascript.ru/ — онлайн-песочница для JS-примеров.
 
 **Проверено:** примеры из учебника проходят `node --check` и компилируются TypeScript 5.x (`tsc --strict`). Время выполнения — современные браузеры (Chrome/Edge/Firefox) и Node.js 20+.

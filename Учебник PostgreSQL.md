@@ -1644,13 +1644,13 @@ ORDER BY together DESC;
 
 | Ресурс | Описание |
 | --- | --- |
-| [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | Интерактивный учебник по PostgreSQL с примерами запросов. |
-| [SQL Murder Mystery](https://mystery.knightlab.com/) | Murder-mystery игра для изучения SQL — найдите убийцу с помощью запросов. |
-| [Exercism: SQL](https://exercism.org/tracks/sql) | Задачи по SQL на Exercism с менторской проверкой. |
-| [HackerRank: SQL](https://www.hackerrank.com/domains/sql) | Раздел «SQL» в тренажёре HackerRank — запросы разной сложности. |
-| [PostgreSQL Exercises](https://pgexercises.com/) | Упражнения по PostgreSQL — от основ до продвинутых запросов. |
-| [SQL-Academy](https://sql-academy.org/ru) | Интерактивный онлайн-курс по SQL на русском языке. |
-| [pgAdmin](https://www.pgadmin.org/) | GUI-инструмент для работы с PostgreSQL. |
+| PostgreSQL Tutorial — https://www.postgresqltutorial.com/ | Интерактивный учебник по PostgreSQL с примерами запросов. |
+| SQL Murder Mystery — https://mystery.knightlab.com/ | Murder-mystery игра для изучения SQL — найдите убийцу с помощью запросов. |
+| Exercism: SQL — https://exercism.org/tracks/sql | Задачи по SQL на Exercism с менторской проверкой. |
+| HackerRank: SQL — https://www.hackerrank.com/domains/sql | Раздел «SQL» в тренажёре HackerRank — запросы разной сложности. |
+| PostgreSQL Exercises — https://pgexercises.com/ | Упражнения по PostgreSQL — от основ до продвинутых запросов. |
+| SQL-Academy — https://sql-academy.org/ru | Интерактивный онлайн-курс по SQL на русском языке. |
+| pgAdmin — https://www.pgadmin.org/ | GUI-инструмент для работы с PostgreSQL. |
 
 ---
 

@@ -68,17 +68,17 @@ brew install --cask emacs        # GUI-версия
 
 | Ресурс | Что это |
 |--------|---------|
-| [**Викиучебник: Emacs (ru)**](https://ru.wikibooks.org/wiki/Emacs) | Подробный русскоязычный учебник с самого начала. |
-| [**Встроенный tutorial (`C-h t`)**](https://www.gnu.org/software/emacs/tour/) | Официальный учебник при первом запуске — есть русский язык (внутри Emacs: `M-x help-with-tutorial`). |
-| [**Статьи «Emacs для начинающих» (Habr, на русском)**](https://habr.com/ru/search/?q=emacs%20для%20новичков) | Много пошаговых гайдов на русском. |
+| **Викиучебник: Emacs (ru)** — https://ru.wikibooks.org/wiki/Emacs | Подробный русскоязычный учебник с самого начала. |
+| **Встроенный tutorial (`C-h t`)** — https://www.gnu.org/software/emacs/tour/ | Официальный учебник при первом запуске — есть русский язык (внутри Emacs: `M-x help-with-tutorial`). |
+| **Статьи «Emacs для начинающих» (Habr, на русском)** — https://habr.com/ru/search/?q=emacs%20для%20новичков | Много пошаговых гайдов на русском. |
 
 ### На английском (отличные, если язык не мешает)
 
 | Ресурс | Что это |
 |--------|---------|
-| [**GNU Emacs Tour**](https://www.gnu.org/software/emacs/tour/) | Официальный интерактивный тур по возможностям. |
-| [**Emacs Tutor**](https://github.com/emacs-doc/emacs-tutorial) | Встроенный tutorial (в самом Emacs — `C-h t`). |
-| [**Prelude и другие «интерактивные» ресурсы**](https://gitlab.com/emacs-meta/emacs-inner-interactive) | Интерактивное изучение. |
+| **GNU Emacs Tour** — https://www.gnu.org/software/emacs/tour/ | Официальный интерактивный тур по возможностям. |
+| **Emacs Tutor** — https://github.com/emacs-doc/emacs-tutorial | Встроенный tutorial (в самом Emacs — `C-h t`). |
+| **Prelude и другие «интерактивные» ресурсы** — https://gitlab.com/emacs-meta/emacs-inner-interactive | Интерактивное изучение. |
 | Внутри Emacs **M-x tetris** / **M-x snake** | Игры, встроенные прямо в редактор — заодно тренируете комбинации клавиш! |
 
 > Совет: играйте во встроенные `tetris`/`snake` — весёлый способ привыкнуть к клавиатурным комбинациям.
@@ -312,11 +312,11 @@ M-x package-install RET <имя-пакета> RET
 
 ## Полезные ресурсы
 
-- [**Официальный сайт GNU Emacs**](https://www.gnu.org/software/emacs/)
-- [**GNU Emacs Manual**](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html) — основной справочник
-- [**Emacs Lisp Intro**](https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html) — введение в elisp
-- [**MELPA**](https://melpa.org/) — репозиторий пакетов
-- [**EmacsWiki**](https://www.emacswiki.org/) — вики-сообщество
-- [**Список замечательных Emacs-пакетов**](https://github.com/emacs-tw/awesome-emacs)
+- **Официальный сайт GNU Emacs** — https://www.gnu.org/software/emacs/
+- **GNU Emacs Manual** — https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html — основной справочник
+- **Emacs Lisp Intro** — https://www.gnu.org/software/emacs/manual/html_node/eintr/index.html — введение в elisp
+- **MELPA** — https://melpa.org/ — репозиторий пакетов
+- **EmacsWiki** — https://www.emacswiki.org/ — вики-сообщество
+- **Список замечательных Emacs-пакетов** — https://github.com/emacs-tw/awesome-emacs
 
 > **Итог:** Emacs поначалу пугает, но за 2–3 дня активной практики вы освоитесь с базой. Дальше — бесконечный путь расширения на элиспе. Не пытайтесь охватить всё сразу; главное — встроенный tutorial и постоянная практика. Удачи!
