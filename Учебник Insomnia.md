@@ -28,6 +28,7 @@ tags:
 - [***Возможности автоматизации***](https://habr.com/ru/articles/754154/#8) ***\+ Новая*** [статья Разбор переменных и скриптов в Insomnia](https://habr.com/ru/articles/791826/)
 - [***Импорт OpenAPI документации***](https://habr.com/ru/articles/754154/#9)
 - [***Создание первого автотеста при создания пользователя***](https://habr.com/ru/articles/754154/#10)
+- [***Онлайн-тренажеры и ресурсы***](https://habr.com/ru/articles/754154/#12)
 - [***Заключение***](https://habr.com/ru/articles/754154/#11)
 
 ## Введение
@@ -574,6 +575,19 @@ expect(item).to.have.property("message");
 ```
 
 Больше информации про скрипты в [официальной документации](https://docs.insomnia.rest/insomnia/unit-testing).
+
+## Онлайн-тренажеры и ресурсы
+
+Площадки для изучения Insomnia и REST API:
+
+| Ресурс | Описание |
+| --- | --- |
+| [Insomnia Documentation](https://docs.insomnia.rest/) | Официальная документация Insomnia — полный справочник. |
+| [Insomnia Hub](https://insomnia.rest/hub) | Каталог шаблонов API и коллекций запросов от сообщества. |
+| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Бесплатный fake REST API для экспериментов с HTTP-запросами. |
+| [Reqres](https://reqres.in/) | Бесплатный тестовый REST API для фронтенда и тестирования. |
+| [Postman Echo](https://docs.postman-echo.com/) | Echo-сервис Postman для отладки HTTP-запросов. |
+| [HTTPstatuses](https://httpstatuses.com/) | Справочник HTTP-статус-кодов с описаниями. |
 
 ## Заключение
 

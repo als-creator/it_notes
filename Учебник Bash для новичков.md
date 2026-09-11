@@ -25,7 +25,7 @@
 - [21. Фоновые задачи и tmux](#21-фоновые-задачи-и-tmux)
 - [22. Работа с сетью ping, curl, wget, ip, ss](#22-работа-с-сетью-ping-curl-wget-ip-ss)
 - [23. Полезные хоткеи терминала](#23-полезные-хоткеи-терминала)
-- [24. Чек-лист первые команды новичка](#24-чек-лист-первые-команды-новичка)
+- [24. Онлайн-тренажеры и ресурсы](#24-онлайн-тренажеры-и-ресурсы)
 - [25. Практика и задания для самопроверки](#25-практика-и-задания-для-самопроверки)
 
 ## 1. Что такое оболочка и терминал
@@ -373,7 +373,7 @@ rm -r каталог/                # рекурсивно удалить ка�
 rm -rf каталог/               # рекурсивно и без вопросов
 ```
 
-⚠️ **Осторожно с `rm -rf`!** Эта команда не спрашивает и не имеет корзины. `rm -rf /` удалит всю систему. Дважды проверяйте путь, попробуйте сначала `ls` по тому же пути.
+**Осторожно с `rm -rf`!** Эта команда не спрашивает и не имеет корзины. `rm -rf /` удалит всю систему. Дважды проверяйте путь, попробуйте сначала `ls` по тому же пути.
 
 ### ln — ссылки
 
@@ -1487,7 +1487,7 @@ LOG_FILE="$HOME/.disk_usage.log"
 USAGE=$(df / | awk 'NR==2 {print $5}' | sed 's/%//')
 
 if [ "$USAGE" -ge "$THRESHOLD" ]; then
-    echo "⚠ Диск занят на $USAGE%!" | tee -a "$LOG_FILE"
+    echo "Диск занят на $USAGE%!" | tee -a "$LOG_FILE"
 else
     echo "Диск в норме: $USAGE%"
 fi
@@ -2158,71 +2158,19 @@ sudo iptables-restore < ~/iptables_config   # загрузить из файла
 
 ---
 
-## 24. Чек-лист первые команды новичка
+## 24. Онлайн-тренажеры и ресурсы
 
-Сначала выполните эти команды по порядку — и база будет в голове:
+Интерактивные площадки для отработки навыков Bash/Unix:
 
-```bash
-# Где я и кто я
-whoami
-pwd
-who
-
-# Навигация
-cd ~
-cd /
-cd /etc
-cd -
-ls -la
-ls -lh /home
-
-# Файлы
-mkdir practice && cd practice
-touch hello.txt
-cp hello.txt hello2.txt
-mv hello2.txt renamed.txt
-ls -l
-cat renamed.txt
-echo "Привет мир" > renamed.txt
-cat renamed.txt
-echo "ещё строка" >> renamed.txt
-head -1 renamed.txt && tail -1 renamed.txt
-wc -l renamed.txt
-rm renamed.txt
-cd .. && rmdir practice
-
-# Справка
-man ls
-man bash
-type cd
-which python3
-
-# Поиск и текст
-find /usr/share -name "*.txt" 2>/dev/null | head
-grep -rn "warning" /etc/apt/sources.list
-echo "a b c" | awk '{print $2}'
-echo "hello world" | sed 's/world/linux/'
-
-# Процессы
-ps
-ps aux | head
-top    # q — выход
-
-# Права
-touch my_script.sh && chmod +x my_script.sh
-ls -l my_script.sh
-
-# Потоки
-ls /tmp > /dev/null
-ls /nonexistent 2>/dev/null
-ps aux | grep -v grep | wc -l
-
-# История и хоткеи
-history | tail
-# Ctrl+R — поиск, Ctrl+A — в начало строки, Ctrl+E — в конец
-```
-
-Критерий «я разобрался»: понимаете значение каждого слова в строке `ls -la /home`.
+| Ресурс | Описание |
+| --- | --- |
+| [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) | Начальный варгейм для освоения командной строки Linux. 34 уровня. |
+| [Linux Survival](https://linuxsurvival.com/) | Интерактивный учебник по основам Linux в браузере. |
+| [Exercism: Bash](https://exercism.org/tracks/bash) | Задачи по Bash на Exercism с менторской проверкой. |
+| [HackerRank: Bash](https://www.hackerrank.com/domains/shell) | Раздел «Shell» в тренажёре HackerRank — скрипты и утилиты. |
+| [Shellcheck](https://www.shellcheck.net/) | Онлайн-валидатор shell-скриптов — покажет ошибки и подскажет улучшения. |
+| [Commandlinefu](https://www.commandlinefu.com/commands/browse) | Коллекция полезных shell-команд от сообщества. |
+| [explainshell.com](https://explainshell.com/) | Вставьте любую команду — сервис покажет, что делает каждый фрагмент. |
 
 ---
 

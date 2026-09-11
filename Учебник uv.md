@@ -91,6 +91,7 @@
   - [Таблица сравнения](#таблица-сравнения)
 - [Сводка команд](#сводка-команд)
 - [Тренажёры и практика](#тренажёры-и-практика)
+- [Онлайн-тренажеры и ресурсы](#онлайн-тренажеры-и-ресурсы)
 - [Полезные ссылки](#полезные-ссылки)
 
 ---
@@ -929,7 +930,7 @@ uv run ruff format fix.py        # форматирование через ruff
 
 uv run black fix.py              # или через black
 # reformatted fix.py
-# All done! ✨ 🍰 ✨
+# All done!
 # 1 file reformatted.
 ```
 
@@ -1282,6 +1283,21 @@ pipenv sync --dev             # воссоздать окружение ровн
   - **PythonTutor** — пошаговая визуализация выполнения кода: https://pythontutor.com
   - **learnpython.org** — бесплатные интерактивные уроки прямо в браузере: https://www.learnpython.org
   - **Codewars / CheckiO** — задачи по Python с рейтингом, полезно для закрепления: https://www.codewars.com, https://checkio.org
+
+---
+
+## Онлайн-тренажеры и ресурсы
+
+Площадки для изучения uv и управления пакетами Python:
+
+| Ресурс | Описание |
+| --- | --- |
+| [uv Documentation](https://docs.astral.sh/uv/) | Официальная документация uv — полный справочник команд и возможностей. |
+| [Astral Blog](https://astral.sh/blog) | Блог авторов uv — новости, релизы, сравнения с pip/poetry. |
+| [Exercism: Python](https://exercism.org/tracks/python) | Задачи по Python на Exercism — можно использовать uv для запуска. |
+| [Python Packaging Guide](https://packaging.python.org/) | Официальное руководство по упаковке Python-проектов. |
+| [PyPI](https://pypi.org/) | Индекс пакетов Python — можно искать и устанавливать через uv. |
+| [pip и uv](https://docs.astral.sh/uv/pip-compatibility/) | Сравнение команд uv и pip — быстрый переход. |
 
 ---
 

@@ -1,0 +1,108 @@
+{
+  "text-color": "#000000",
+  "background-color": "#ffffff",
+  "line-number-color": "#444444",
+  "text-styles": {
+    "SourceCode": {
+      "background-color": "#ffffff"
+    },
+    "LineNumber": {
+      "text-color": "#444444"
+    },
+    "SourceCodeLine": {
+      "text-color": "#000000"
+    },
+    "Other": {
+      "text-color": "#000000"
+    }
+  },
+  "token-styles": {
+    "Attribute": {
+      "text-color": "#1a1a1a"
+    },
+    "BuiltIn": {
+      "text-color": "#222222",
+      "font-weight": "bold"
+    },
+    "Char": {
+      "text-color": "#1a1a1a"
+    },
+    "Comment": {
+      "text-color": "#555555",
+      "font-style": "italic"
+    },
+    "ControlFlow": {
+      "text-color": "#000000",
+      "font-weight": "bold"
+    },
+    "DataType": {
+      "text-color": "#222222",
+      "font-weight": "bold"
+    },
+    "DecVal": {
+      "text-color": "#111111"
+    },
+    "Documentation": {
+      "text-color": "#444444",
+      "font-style": "italic"
+    },
+    "Error": {
+      "text-color": "#000000",
+      "font-weight": "bold"
+    },
+    "Extension": {
+      "text-color": "#000000"
+    },
+    "Float": {
+      "text-color": "#111111"
+    },
+    "Function": {
+      "text-color": "#000000",
+      "font-weight": "bold"
+    },
+    "Keyword": {
+      "text-color": "#000000",
+      "font-weight": "bold"
+    },
+    "Label": {
+      "text-color": "#000000"
+    },
+    "LineComment": {
+      "text-color": "#555555",
+      "font-style": "italic"
+    },
+    "OtherTok": {
+      "text-color": "#000000"
+    },
+    "Operator": {
+      "text-color": "#000000"
+    },
+    "Parameter": {
+      "text-color": "#000000"
+    },
+    "Punctuation": {
+      "text-color": "#000000"
+    },
+    "Preprocessor": {
+      "text-color": "#333333"
+    },
+    "RegionMarker": {
+      "text-color": "#333333"
+    },
+    "SpecialString": {
+      "text-color": "#000000"
+    },
+    "String": {
+      "text-color": "#1a1a1a"
+    },
+    "Variable": {
+      "text-color": "#111111"
+    },
+    "VerbatimString": {
+      "text-color": "#000000"
+    },
+    "WarningTok": {
+      "text-color": "#000000"
+    }
+  }
+}

@@ -25,7 +25,8 @@
 - [15. Проверки здоровья: probes](#15-проверки-здоровья-probes)
 - [16. Деплой приложения: полный пример](#16-деплой-приложения-полный-пример)
 - [17. Проекты-практикумы](#17-проекты-практикумы)
-- [18. Литература и ссылки](#18-литература-и-ссылки)
+- [18. Онлайн-тренажеры и ресурсы](#18-онлайн-тренажеры-и-ресурсы)
+- [19. Литература и ссылки](#19-литература-и-ссылки)
 
 ---
 
@@ -1479,7 +1480,23 @@ curl -H "Host: hello.local" http://127.0.0.1:8080/     # → «Привет из
 
 ---
 
-## 18. Литература и ссылки
+## 18. Онлайн-тренажеры и ресурсы
+
+Площадки для отработки навыков Kubernetes:
+
+| Ресурс | Описание |
+| --- | --- |
+| [KillerCoda: Kubernetes](https://killercoda.com/playgrounds/scenario/kubernetes) | Бесплатные интерактивные сценарии Kubernetes в браузере. |
+| [KodeKloud: Kubernetes](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginner-ckad/) | Курсы Kubernetes с лабораторными работами в браузере. |
+| [Play with Kubernetes](https://labs.play-with-k8s.com/) | Бесплатная песочница K8s — 4-часовые сессии в браузере. |
+| [Minikube](https://minikube.sigs.k8s.io/) | Локальный кластер K8s для экспериментов на своём компьютере. |
+| [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | Ручная настройка кластера — глубокое понимание архитектуры. |
+| [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) | Шпаргалка по командам kubectl от официальной документации. |
+| [kind (Kubernetes in Docker)](https://kind.sigs.k8s.io/) | Запуск кластеров K8s в Docker-контейнерах — удобно для тестов. |
+
+---
+
+## 19. Литература и ссылки
 
 Официальная документация (русская и английская версии):
 - https://kubernetes.io/ru/docs/concepts/overview/what-is-kubernetes/ — «Что такое Kubernetes» (RU)

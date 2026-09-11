@@ -1,6 +1,6 @@
 # Учебник-практикум: JavaScript и TypeScript для новичков
 
-**JavaScript** — язык программирования, который работает в браузере и на сервере (Node.js). С помощью JavaScript создают интерактивные веб-страницы, серверные API, мобильные и десктопные приложения. **TypeScript** — надстройка над JavaScript, которая добавляет статическую типизацию (指定された型の检查) и помогает ловить ошибки на этапе написания кода, а не при запуске.
+**JavaScript** — язык программирования, который работает в браузере и на сервере (Node.js). С помощью JavaScript создают интерактивные веб-страницы, серверные API, мобильные и десктопные приложения. **TypeScript** — надстройка над JavaScript, которая добавляет статическую типизацию (проверка типов) и помогает ловить ошибки на этапе написания кода, а не при запуске.
 
 Интерактивный учебник в формате: **теория → схема → «Попробуй сам» → «Задание» → «Самопроверка»**. Для браузерных примеров создавайте `index.html` и открывайте в DevTools → Console (клавиша `F12`/`Ctrl+Shift+I`, вкладка **Console**). Для серверных — запускайте `node script.js` из командной строки.
 
@@ -25,7 +25,8 @@
 17. [Введение в TypeScript](#17-введение-в-typescript)
 18. [Node.js и npm](#18-nodejs-и-npm)
 19. [Проекты-практикумы](#19-проекты-практикумы)
-20. [Литература и ссылки](#литература-и-ссылки)
+20. [Онлайн-тренажеры и ресурсы](#онлайн-тренажеры-и-ресурсы)
+21. [Литература и ссылки](#литература-и-ссылки)
 
 ---
 
@@ -1310,6 +1311,24 @@ server.listen(3000, () => console.log("http://localhost:3000"));
 3. Проверка `response.ok`, `.catch` — вывод «Погода не загрузилась».
 4. Рендер: температура, скорость ветра, иконка «день/ночь» (`is_day`).
 5. Пересохранение последнего города в `localStorage` и авто-запрос при старте.
+
+---
+
+## Онлайн-тренажеры и ресурсы
+
+Интерактивные площадки для отработки навыков JavaScript и TypeScript:
+
+| Ресурс | Описание |
+| --- | --- |
+| [Exercism: JavaScript](https://exercism.org/tracks/javascript) | Задачи по JS на Exercism с менторской проверкой. |
+| [Exercism: TypeScript](https://exercism.org/tracks/typescript) | Задачи по TypeScript на Exercism. |
+| [freeCodeCamp](https://www.freecodecamp.org/) | Бесплатный курс с проектами по JavaScript Algorithms and Data Structures. |
+| [JavaScript.info](https://learn.javascript.ru/) | Современный учебник по JavaScript на русском языке. |
+| [TypeScript Playground](https://www.typescriptlang.org/play) | Онлайн-песочница TypeScript — экспериментируйте с кодом и типами. |
+| [Codecademy: JS](https://www.codecademy.com/learn/introduction-to-javascript) | Интерактивный курс по JavaScript от Codecademy. |
+| [Codewars](https://codewars.com/) | Катакомбы задач (kata) по JS/TS разного уровня. |
+| [LeetCode](https://leetcode.com/) | Задачи по алгоритмам с решением на JavaScript/TypeScript. |
+| [MDN Web Docs](https://developer.mozilla.org/ru/) | Справочник по JS от Mozilla — эталонная документация. |
 
 ---
 

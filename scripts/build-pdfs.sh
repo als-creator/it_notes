@@ -24,6 +24,7 @@ for md in "${files[@]}"; do
   pandoc "$md" \
     -f "markdown-tex_math_dollars-tex_math_single_backslash-tex_math_double_backslash" \
     --pdf-engine=xelatex \
+    --highlight-style=scripts/pdf-highlight.theme \
     -H scripts/pdf-header.tex \
     -V lang=ru-RU \
     -V mainfont="DejaVu Sans" \
@@ -33,6 +34,10 @@ for md in "${files[@]}"; do
     -V documentclass=article \
     -V toc=true \
     -V toc-depth=3 \
+    -V colorlinks=true \
+    -V linkcolor=black \
+    -V urlcolor=black \
+    -V citecolor=black \
     -o "$pdf"
 
   count=$((count + 1))
