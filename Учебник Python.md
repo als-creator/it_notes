@@ -29,6 +29,7 @@
 - [Работа с сетью (requests)](#работа-с-сетью-requests)
 - [Ввод-вывод CLI](#ввод-вывод-cli)
 - [Проекты-практикумы](#проекты-практикумы)
+- [Онлайн-тренажеры и ресурсы](#онлайн-тренажеры-и-ресурсы)
 - [Литература и полезные ссылки](#литература-и-полезные-ссылки)
 
 ---
@@ -341,8 +342,8 @@ print(text.endswith("!"))       # True
 print(text.find("world"))       # 8  — индекс первого вхождения или -1
 
 # find vs index: find возвращает -1, index бросает исключение
-text.find("不存在")    # -1
-# text.index("不存在") # ValueError!
+text.find("такого слова")    # -1
+# text.index("такого слова") # ValueError!
 
 # split и join — самая популярная связка
 sentence = "один,два,три"
@@ -2165,6 +2166,24 @@ print(f"Больше всех получает: {top['name']}")
 Помните главный совет: не попадайте в «ловушку туториалов». Открывайте редактор и пишите код — ломайте, чините, читайте ошибки. Это единственный путь.
 
 `print("Good luck!")`
+
+---
+
+## Онлайн-тренажеры и ресурсы
+
+Интерактивные площадки для отработки навыков Python:
+
+| Ресурс | Описание |
+| --- | --- |
+| [Python Tutor](https://pythontutor.com/) | Визуализатор выполнения Python-кода — пошаговое прохождение. |
+| [Exercism: Python](https://exercism.org/tracks/python) | 130+ задач по Python на Exercism с менторской проверкой. |
+| [HackerRank: Python](https://www.hackerrank.com/domains/python) | Раздел «Python 3» в тренажёре HackerRank. |
+| [Codewars](https://codewars.com/) | Катакомбы задач (kata) по Python разного уровня сложности. |
+| [LeetCode](https://leetcode.com/) | Задачи по алгоритмам и структурам данных на Python. |
+| [Codecademy: Python](https://www.codecademy.com/learn/learn-python-3) | Интерактивный курс по Python 3 от Codecademy. |
+| [Real Python](https://realpython.com/) | Уроки, статьи и видео по Python — от новичка до профессионала. |
+| [Stepik: Python](https://stepik.org/catalog/search?query=python) | Бесплатные курсы по Python на русском языке. |
+| [Google Colab](https://colab.research.google.com/) | Облачный Jupyter — запускайте Python-код без установки. |
 
 ---
 

@@ -36,6 +36,7 @@
 - [Базовый тюнинг: EXPLAIN, vacuum, autovacuum](#базовый-тюнинг-explain-vacuum-autovacuum)
 - [Практика: 20 заданий](#практика-20-заданий)
 - [Проекты-практикумы](#проекты-практикумы)
+- [Онлайн-тренажеры и ресурсы](#онлайн-тренажеры-и-ресурсы)
 - [Литература и ссылки](#литература-и-ссылки)
 
 ---
@@ -1634,6 +1635,22 @@ ORDER BY together DESC;
 - товары, у которых цена ниже средней по категории, но они продаются.
 
 Финальный шаг: оформи результат в виде README-текста 3-4 строки, чтобы можно было показать его коллеге.
+
+---
+
+## Онлайн-тренажеры и ресурсы
+
+Площадки для отработки навыков PostgreSQL:
+
+| Ресурс | Описание |
+| --- | --- |
+| [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) | Интерактивный учебник по PostgreSQL с примерами запросов. |
+| [SQL Murder Mystery](https://mystery.knightlab.com/) | Murder-mystery игра для изучения SQL — найдите убийцу с помощью запросов. |
+| [Exercism: SQL](https://exercism.org/tracks/sql) | Задачи по SQL на Exercism с менторской проверкой. |
+| [HackerRank: SQL](https://www.hackerrank.com/domains/sql) | Раздел «SQL» в тренажёре HackerRank — запросы разной сложности. |
+| [PostgreSQL Exercises](https://pgexercises.com/) | Упражнения по PostgreSQL — от основ до продвинутых запросов. |
+| [SQL-Academy](https://sql-academy.org/ru) | Интерактивный онлайн-курс по SQL на русском языке. |
+| [pgAdmin](https://www.pgadmin.org/) | GUI-инструмент для работы с PostgreSQL. |
 
 ---
 

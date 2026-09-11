@@ -124,6 +124,7 @@
     - [Создание пустого репозитория на сервере](#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B3%D0%BE-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%BD%D0%B0-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B5)
     - [Вернуться к состоянию до слияния (откат merge)](#%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D1%8C%D1%81%D1%8F-%D0%BA-%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D1%8E-%D0%B4%D0%BE-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D1%8F-%D0%BE%D1%82%D0%BA%D0%B0%D1%82-merge)
     - [Запушить без запроса логина/пароля (HTTPS)](#%D0%B7%D0%B0%D0%BF%D1%83%D1%88%D0%B8%D1%82%D1%8C-%D0%B1%D0%B5%D0%B7-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%B0-%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD%D0%B0%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F-https)
+- [Онлайн-тренажеры и ресурсы](#%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D1%82%D1%80%D0%B5%D0%BD%D0%B0%D0%B6%D0%B5%D1%80%D1%8B-%D0%B8-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B)
 - [Полезные ресурсы](#%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B)
 
 * * *
@@ -1708,6 +1709,22 @@ git update-server-info   # создать info/refs и объектные пак
 git count-objects        # сколько объектов и места занимает репозиторий
 git gc                   # переупаковка/очистка (сборщик мусора)
 ```
+
+* * *
+
+## Онлайн-тренажеры и ресурсы
+
+Площадки для отработки навыков Git:
+
+| Ресурс | Описание |
+| --- | --- |
+| [Learn Git Branching](https://learngitbranching.js.org/?locale=ru) | Интерактивный визуальный учебник по Git — ветки, слияния, rebase. На русском. |
+| [Git How To](https://githowto.com/ru) | Интерактивный курс по Git на русском языке с задачами. |
+| [Oh Shit, Git!?!](https://ohshitgit.com/ru) | Шпаргалка по исправлению частых ошибок Git на русском. |
+| [GitHub Skills](https://skills.github.com/) | Интерактивные миссии от GitHub — изучение через практику в реальном репозитории. |
+| [Exercism: Git](https://exercism.org/tracks/cli) | Задачи по CLI, включая Git-команды. |
+| [Visualizing Git](https://git-school.github.io/visualizing-git/) | Визуализатор работы Git в реальном времени — экспериментируйте с командами. |
+| [Pro Git (рус.)](https://git-scm.com/book/ru/v2) | Полная книга по Git на русском — бесплатно и открыта. |
 
 * * *
 
