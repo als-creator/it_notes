@@ -1457,13 +1457,13 @@ go test ./...
 
 | Ресурс | Описание |
 | --- | --- |
-| [Exercism: Go](https://exercism.org/tracks/go) | 280+ задач по Go на Exercism с менторской проверкой. |
-| [Go by Example](https://gobyexample.com/) | Концепции Go через рабочие примеры кода. |
-| [A Tour of Go](https://go.dev/tour/) | Интерактивный туториал от создателей Go — прямо в браузере. |
-| [HackerRank: Go](https://www.hackerrank.com/domains/golang) | Раздел «Go» в тренажёре HackerRank. |
-| [LeetCode (Go)](https://leetcode.com/) | Задачи по алгоритмам с решением на Go. |
-| [Go Playground](https://go.dev/play/) | Онлайн-песочница Go — запускайте код без установки. |
-| [Effective Go](https://go.dev/doc/effective_go) | Официальное руководство по идиоматическому Go. |
+| Exercism: Go — https://exercism.org/tracks/go | 280+ задач по Go на Exercism с менторской проверкой. |
+| Go by Example — https://gobyexample.com/ | Концепции Go через рабочие примеры кода. |
+| A Tour of Go — https://go.dev/tour/ | Интерактивный туториал от создателей Go — прямо в браузере. |
+| HackerRank: Go — https://www.hackerrank.com/domains/golang | Раздел «Go» в тренажёре HackerRank. |
+| LeetCode (Go) — https://leetcode.com/ | Задачи по алгоритмам с решением на Go. |
+| Go Playground — https://go.dev/play/ | Онлайн-песочница Go — запускайте код без установки. |
+| Effective Go — https://go.dev/doc/effective_go | Официальное руководство по идиоматическому Go. |
 
 ---
 

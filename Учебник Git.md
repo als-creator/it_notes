@@ -1718,13 +1718,13 @@ git gc                   # переупаковка/очистка (сборщи
 
 | Ресурс | Описание |
 | --- | --- |
-| [Learn Git Branching](https://learngitbranching.js.org/?locale=ru) | Интерактивный визуальный учебник по Git — ветки, слияния, rebase. На русском. |
-| [Git How To](https://githowto.com/ru) | Интерактивный курс по Git на русском языке с задачами. |
-| [Oh Shit, Git!?!](https://ohshitgit.com/ru) | Шпаргалка по исправлению частых ошибок Git на русском. |
-| [GitHub Skills](https://skills.github.com/) | Интерактивные миссии от GitHub — изучение через практику в реальном репозитории. |
-| [Exercism: Git](https://exercism.org/tracks/cli) | Задачи по CLI, включая Git-команды. |
-| [Visualizing Git](https://git-school.github.io/visualizing-git/) | Визуализатор работы Git в реальном времени — экспериментируйте с командами. |
-| [Pro Git (рус.)](https://git-scm.com/book/ru/v2) | Полная книга по Git на русском — бесплатно и открыта. |
+| Learn Git Branching — https://learngitbranching.js.org/?locale=ru | Интерактивный визуальный учебник по Git — ветки, слияния, rebase. На русском. |
+| Git How To — https://githowto.com/ru | Интерактивный курс по Git на русском языке с задачами. |
+| Oh Shit, Git!?! — https://ohshitgit.com/ru | Шпаргалка по исправлению частых ошибок Git на русском. |
+| GitHub Skills — https://skills.github.com/ | Интерактивные миссии от GitHub — изучение через практику в реальном репозитории. |
+| Exercism: Git — https://exercism.org/tracks/cli | Задачи по CLI, включая Git-команды. |
+| Visualizing Git — https://git-school.github.io/visualizing-git/ | Визуализатор работы Git в реальном времени — экспериментируйте с командами. |
+| Pro Git (рус.) — https://git-scm.com/book/ru/v2 | Полная книга по Git на русском — бесплатно и открыта. |
 
 * * *
 

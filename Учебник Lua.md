@@ -2127,12 +2127,12 @@ manager:show_all()
 
 | Ресурс | Описание |
 | --- | --- |
-| [Lua: Interactive Course](https://www.lua.org/pil/contents.html) | Официальное «Programming in Lua» — доступно онлайн бесплатно. |
-| [Exercism: Lua](https://exercism.org/tracks/lua) | Задачи по Lua на Exercism с менторской проверкой. |
-| [Codewars](https://codewars.com/) | Катакомбы задач (kata) по Lua разного уровня сложности. |
-| [Replit: Lua](https://replit.com/languages/lua) | Онлайн-IDE для Lua — запускайте код без установки. |
-| [Lua Demo](https://www.lua.org/demo.html) | Онлайн-демо Lua прямо на официальном сайте. |
-| [Awesome Lua](https://github.com/LewisJEllis/awesome-lua) | Подборка библиотек, инструментов и ресурсов по Lua. |
+| Lua: Interactive Course — https://www.lua.org/pil/contents.html | Официальное «Programming in Lua» — доступно онлайн бесплатно. |
+| Exercism: Lua — https://exercism.org/tracks/lua | Задачи по Lua на Exercism с менторской проверкой. |
+| Codewars — https://codewars.com/ | Катакомбы задач (kata) по Lua разного уровня сложности. |
+| Replit: Lua — https://replit.com/languages/lua | Онлайн-IDE для Lua — запускайте код без установки. |
+| Lua Demo — https://www.lua.org/demo.html | Онлайн-демо Lua прямо на официальном сайте. |
+| Awesome Lua — https://github.com/LewisJEllis/awesome-lua | Подборка библиотек, инструментов и ресурсов по Lua. |
 
 ---
 

@@ -1271,15 +1271,15 @@ opacity:            только прозрачность слоя              
 
 | Ресурс | Описание |
 | --- | --- |
-| [Flexbox Froggy](https://flexboxfroggy.com/ru) | Игра для изучения Flexbox — помогите лягушкам добраться до лилий. |
-| [Grid Garden](https://cssgridgarden.com/ru) | Игра для изучения CSS Grid — выращивайте морковь с помощью сетки. |
-| [CSS Diner](https://flukeout.github.io/) | Интерактивная игра на селекторы CSS. |
-| [Flexbox Labs](https://flexboxlabs.netlify.app/) | Визуальная песочница для экспериментов с Flexbox. |
-| [Codecademy: HTML/CSS](https://www.codecademy.com/learn/learn-html) | Интерактивный курс по HTML и CSS от Codecademy. |
-| [freeCodeCamp](https://www.freecodecamp.org/) | Бесплатный курс с проектами и сертификацией по Responsive Web Design. |
-| [MDN Web Docs](https://developer.mozilla.org/ru/) | Справочник по HTML/CSS/JS от Mozilla — эталонная документация. |
-| [Doka.guide](https://doka.guide/) | Современный русскоязычный справочник по веб-разработке. |
-| [HTML Academy](https://htmlacademy.ru/) | Интерактивные курсы по HTML и CSS на русском. |
+| Flexbox Froggy — https://flexboxfroggy.com/ru | Игра для изучения Flexbox — помогите лягушкам добраться до лилий. |
+| Grid Garden — https://cssgridgarden.com/ru | Игра для изучения CSS Grid — выращивайте морковь с помощью сетки. |
+| CSS Diner — https://flukeout.github.io/ | Интерактивная игра на селекторы CSS. |
+| Flexbox Labs — https://flexboxlabs.netlify.app/ | Визуальная песочница для экспериментов с Flexbox. |
+| Codecademy: HTML/CSS — https://www.codecademy.com/learn/learn-html | Интерактивный курс по HTML и CSS от Codecademy. |
+| freeCodeCamp — https://www.freecodecamp.org/ | Бесплатный курс с проектами и сертификацией по Responsive Web Design. |
+| MDN Web Docs — https://developer.mozilla.org/ru/ | Справочник по HTML/CSS/JS от Mozilla — эталонная документация. |
+| Doka.guide — https://doka.guide/ | Современный русскоязычный справочник по веб-разработке. |
+| HTML Academy — https://htmlacademy.ru/ | Интерактивные курсы по HTML и CSS на русском. |
 
 ---
 
@@ -1287,27 +1287,27 @@ opacity:            только прозрачность слоя              
 
 **Официальные и справочные:**
 
-- [MDN Web Docs на русском — HTML](https://developer.mozilla.org/ru/docs/Web/HTML) и [CSS](https://developer.mozilla.org/ru/docs/Web/CSS) — эталонная документация.
-- [HTML-спецификация (WHATWG, англ.)](https://html.spec.whatwg.org/) — что «на самом деле» дальше браузеров.
-- [CSS-спецификация (W3C, англ.)](https://www.w3.org/Style/CSS/)
-- [Can I use](https://caniuse.com/) — какие фичи поддержаны в браузерах.
-- [DevTools: Chrome](https://developer.chrome.com/docs/devtools/), [Firefox (рус.)](https://developer.mozilla.org/ru/docs/Tools)
+- MDN Web Docs на русском — HTML — https://developer.mozilla.org/ru/docs/Web/HTML и CSS — https://developer.mozilla.org/ru/docs/Web/CSS — эталонная документация.
+- HTML-спецификация (WHATWG, англ.) — https://html.spec.whatwg.org/ — что «на самом деле» дальше браузеров.
+- CSS-спецификация (W3C, англ.) — https://www.w3.org/Style/CSS/
+- Can I use — https://caniuse.com/ — какие фичи поддержаны в браузерах.
+- DevTools: Chrome — https://developer.chrome.com/docs/devtools/, Firefox (рус.) — https://developer.mozilla.org/ru/docs/Tools
 
 **Учебные ресурсы на русском:**
 
-- [learn.javascript.ru](https://learn.javascript.ru/) — Современный учебник JavaScript: разделы про DOM, события и браузерные API.
-- [Дока (doka.guide)](https://doka.guide/) — справочник по HTML/CSS/JS на русском с примерами и советами.
-- [HTML Academy](https://htmlacademy.ru/) — интерактивные курсы по вёрстке.
-- [htmlbook.ru](https://htmlbook.ru/) — классический справочник по HTML и CSS.
+- learn.javascript.ru — https://learn.javascript.ru/ — Современный учебник JavaScript: разделы про DOM, события и браузерные API.
+- Дока (doka.guide) — https://doka.guide/ — справочник по HTML/CSS/JS на русском с примерами и советами.
+- HTML Academy — https://htmlacademy.ru/ — интерактивные курсы по вёрстке.
+- htmlbook.ru — https://htmlbook.ru/ — классический справочник по HTML и CSS.
 
 **Полезные главы теоретической матчасти (по мотивам вашей заметки «Как работает браузер»):**
 
-- [«Жизненный цикл загрузки страницы» — MDN](https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work) — как браузер строит DOM, CSSOM и рисует страницу.
-- [«Приоритет селекторов CSS» — Хекслет](https://ru.hexlet.io/courses/css/lessons/specificity/theory_unit) — каскад и специфичность примерами.
-- [«Браузерный DOM» — learn.javascript.ru](https://learn.javascript.ru/dom-nodes)
+- «Жизненный цикл загрузки страницы» — MDN — https://developer.mozilla.org/ru/docs/Web/Performance/How_browsers_work — как браузер строит DOM, CSSOM и рисует страницу.
+- «Приоритет селекторов CSS» — Хекслет — https://ru.hexlet.io/courses/css/lessons/specificity/theory_unit — каскад и специфичность примерами.
+- «Браузерный DOM» — learn.javascript.ru — https://learn.javascript.ru/dom-nodes
 
 **Игры и тренажёры:**
 
-- [Flexbox Froggy](https://flexboxfroggy.com/#ru) — игра по flexbox на русском.
-- [CSS Grid Garden](https://cssgridgarden.com/#ru) — игра по grid.
-- [CSS Diner](https://flukeout.github.io/) — тренировка селекторов.
+- Flexbox Froggy — https://flexboxfroggy.com/#ru — игра по flexbox на русском.
+- CSS Grid Garden — https://cssgridgarden.com/#ru — игра по grid.
+- CSS Diner — https://flukeout.github.io/ — тренировка селекторов.

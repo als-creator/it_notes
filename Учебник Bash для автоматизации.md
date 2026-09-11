@@ -1839,29 +1839,29 @@ exit 0
 
 | Ресурс | Описание |
 | --- | --- |
-| [Exercism: Bash](https://exercism.org/tracks/bash) | Задачи по Bash на Exercism с менторской проверкой. |
-| [HackerRank: Bash](https://www.hackerrank.com/domains/shell) | Раздел «Shell» в тренажёре HackerRank — скрипты и утилиты. |
-| [Shellcheck](https://www.shellcheck.net/) | Онлайн-валидатор shell-скриптов — покажет ошибки и подскажет улучшения. |
-| [Crontab.guru](https://crontab.guru/) | Генератор cron-расписаний — удобно проверять синтаксис. |
-| [explainshell.com](https://explainshell.com/) | Вставьте любую команду — сервис покажет, что делает каждый фрагмент. |
-| [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) | Варгейм для закрепления навыков командной строки. |
-| [Linux Journey](https://linuxjourney.com/) | Бесплатный интерактивный курс по Linux-утилитам и шеллу. |
+| Exercism: Bash — https://exercism.org/tracks/bash | Задачи по Bash на Exercism с менторской проверкой. |
+| HackerRank: Bash — https://www.hackerrank.com/domains/shell | Раздел «Shell» в тренажёре HackerRank — скрипты и утилиты. |
+| Shellcheck — https://www.shellcheck.net/ | Онлайн-валидатор shell-скриптов — покажет ошибки и подскажет улучшения. |
+| Crontab.guru — https://crontab.guru/ | Генератор cron-расписаний — удобно проверять синтаксис. |
+| explainshell.com — https://explainshell.com/ | Вставьте любую команду — сервис покажет, что делает каждый фрагмент. |
+| OverTheWire: Bandit — https://overthewire.org/wargames/bandit/ | Варгейм для закрепления навыков командной строки. |
+| Linux Journey — https://linuxjourney.com/ | Бесплатный интерактивный курс по Linux-утилитам и шеллу. |
 
 ---
 
 ## Литература
 
-- [Официальное руководство GNU Bash](https://www.gnu.org/software/bash/manual/bash.html)
-- [Bash Guide (bash-handbook, англ.)](https://github.com/denisidoro/bash-handbook)
-- [Bash Hackers Wiki](https://wiki.bash-hackers.org/start)
-- [Explain Shell — разбор команд](https://explainshell.com/)
-- [ShellCheck — статический анализ bash](https://www.shellcheck.net/)
-- [Документация cron](https://man7.org/linux/man-pages/man5/crontab.5.html)
-- [Команда sed (GNU)](https://www.gnu.org/software/sed/manual/sed.html)
-- [Команда awk (GNU)](https://www.gnu.org/software/gawk/manual/gawk.html)
-- [jq — процессор JSON официально](https://jqlang.github.io/jq/)
-- [TLDP: Advanced Bash-Scripting Guide (англ.)](https://tldp.org/LDP/abs/html/)
-- [Раздел «Консоль и bash» на Habr](https://habr.com/ru/hub/shell/)
-- [dev.to: статьи по bash-скриптингу](https://dev.to/t/bash)
+- Официальное руководство GNU Bash — https://www.gnu.org/software/bash/manual/bash.html
+- Bash Guide (bash-handbook, англ.) — https://github.com/denisidoro/bash-handbook
+- Bash Hackers Wiki — https://wiki.bash-hackers.org/start
+- Explain Shell — разбор команд — https://explainshell.com/
+- ShellCheck — статический анализ bash — https://www.shellcheck.net/
+- Документация cron — https://man7.org/linux/man-pages/man5/crontab.5.html
+- Команда sed (GNU) — https://www.gnu.org/software/sed/manual/sed.html
+- Команда awk (GNU) — https://www.gnu.org/software/gawk/manual/gawk.html
+- jq — процессор JSON официально — https://jqlang.github.io/jq/
+- TLDP: Advanced Bash-Scripting Guide (англ.) — https://tldp.org/LDP/abs/html/
+- Раздел «Консоль и bash» на Habr — https://habr.com/ru/hub/shell/
+- dev.to: статьи по bash-скриптингу — https://dev.to/t/bash
 
 *Все скрипты учебника проверены на Bash 5.x (bash -n). Учебник рассчитан на импорт в Joplin и Obsidian: используются только стандартные конструкции Markdown.*

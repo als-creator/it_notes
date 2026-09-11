@@ -582,12 +582,12 @@ expect(item).to.have.property("message");
 
 | Ресурс | Описание |
 | --- | --- |
-| [Insomnia Documentation](https://docs.insomnia.rest/) | Официальная документация Insomnia — полный справочник. |
-| [Insomnia Hub](https://insomnia.rest/hub) | Каталог шаблонов API и коллекций запросов от сообщества. |
-| [JSONPlaceholder](https://jsonplaceholder.typicode.com/) | Бесплатный fake REST API для экспериментов с HTTP-запросами. |
-| [Reqres](https://reqres.in/) | Бесплатный тестовый REST API для фронтенда и тестирования. |
-| [Postman Echo](https://docs.postman-echo.com/) | Echo-сервис Postman для отладки HTTP-запросов. |
-| [HTTPstatuses](https://httpstatuses.com/) | Справочник HTTP-статус-кодов с описаниями. |
+| Insomnia Documentation — https://docs.insomnia.rest/ | Официальная документация Insomnia — полный справочник. |
+| Insomnia Hub — https://insomnia.rest/hub | Каталог шаблонов API и коллекций запросов от сообщества. |
+| JSONPlaceholder — https://jsonplaceholder.typicode.com/ | Бесплатный fake REST API для экспериментов с HTTP-запросами. |
+| Reqres — https://reqres.in/ | Бесплатный тестовый REST API для фронтенда и тестирования. |
+| Postman Echo — https://docs.postman-echo.com/ | Echo-сервис Postman для отладки HTTP-запросов. |
+| HTTPstatuses — https://httpstatuses.com/ | Справочник HTTP-статус-кодов с описаниями. |
 
 ## Заключение
 

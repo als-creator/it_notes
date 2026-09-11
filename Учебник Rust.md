@@ -2983,13 +2983,13 @@ fn main() {
 
 | Ресурс | Описание |
 | --- | --- |
-| [Rustlings](https://rustlings.cool/) | Интерактивные мини-упражнения — исправляйте код и учитесь на ошибках. |
-| [Exercism: Rust](https://exercism.org/tracks/rust) | 300+ задач по Rust на Exercism с менторской проверкой. |
-| [Rust Playground](https://play.rust-lang.org/) | Онлайн-песочница Rust — запускайте код без установки. |
-| [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | Концепции Rust через рабочие примеры кода. |
-| [The Rust Programming Language](https://doc.rust-lang.org/book/) | Официальная книга по Rust — бесплатно и открыта. |
-| [Advent of Code (Rust)](https://adventofcode.com/) | Задачи по программированию на Rust в праздничном формате. |
-| [Codewars](https://codewars.com/) | Катакомбы задач (kata) по Rust разного уровня сложности. |
+| Rustlings — https://rustlings.cool/ | Интерактивные мини-упражнения — исправляйте код и учитесь на ошибках. |
+| Exercism: Rust — https://exercism.org/tracks/rust | 300+ задач по Rust на Exercism с менторской проверкой. |
+| Rust Playground — https://play.rust-lang.org/ | Онлайн-песочница Rust — запускайте код без установки. |
+| Rust by Example — https://doc.rust-lang.org/rust-by-example/ | Концепции Rust через рабочие примеры кода. |
+| The Rust Programming Language — https://doc.rust-lang.org/book/ | Официальная книга по Rust — бесплатно и открыта. |
+| Advent of Code (Rust) — https://adventofcode.com/ | Задачи по программированию на Rust в праздничном формате. |
+| Codewars — https://codewars.com/ | Катакомбы задач (kata) по Rust разного уровня сложности. |
 
 ---
 

@@ -22,7 +22,7 @@ for md in "${files[@]}"; do
 
   echo "Converting: $md -> $pdf"
   pandoc "$md" \
-    -f "markdown-tex_math_dollars-tex_math_single_backslash-tex_math_double_backslash" \
+    -f "markdown-tex_math_dollars-tex_math_single_backslash-tex_math_double_backslash+autolink_bare_uris" \
     --pdf-engine=xelatex \
     --highlight-style=scripts/pdf-highlight.theme \
     -H scripts/pdf-header.tex \

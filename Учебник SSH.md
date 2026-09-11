@@ -971,12 +971,12 @@ ssh -D 8080 -R 127.1:8080:127.1:8080 user@8.8.8.8 ssh -R 127.1:8080:127.1:8080 u
 
 | Ресурс | Описание |
 | --- | --- |
-| [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) | Варгейм для освоения SSH и командной строки — 34 уровня. |
-| [SSH the Secure Shell](https://www.ssh.com/academy/ssh) | Академия SSH — от основ до продвинутых настроек. |
-| [Linux Journey: SSH](https://linuxjourney.com/lesson/ssh) | Краткий урок по SSH в рамках бесплатного курса по Linux. |
-| [SSH Config Generator](https://www.sshannouncer.com/) | Генератор конфигураций SSH — удобно создавать `~/.ssh/config`. |
-| [Exercism: CLI](https://exercism.org/tracks/cli) | Задачи по командной строке, связанные с SSH. |
-| [SSHHaus](https://sshhhaus.com/) | Интерактивный шпаргалка по SSH-командам. |
+| OverTheWire: Bandit — https://overthewire.org/wargames/bandit/ | Варгейм для освоения SSH и командной строки — 34 уровня. |
+| SSH the Secure Shell — https://www.ssh.com/academy/ssh | Академия SSH — от основ до продвинутых настроек. |
+| Linux Journey: SSH — https://linuxjourney.com/lesson/ssh | Краткий урок по SSH в рамках бесплатного курса по Linux. |
+| SSH Config Generator — https://www.sshannouncer.com/ | Генератор конфигураций SSH — удобно создавать `~/.ssh/config`. |
+| Exercism: CLI — https://exercism.org/tracks/cli | Задачи по командной строке, связанные с SSH. |
+| SSHHaus — https://sshhhaus.com/ | Интерактивный шпаргалка по SSH-командам. |
 
 ---
 

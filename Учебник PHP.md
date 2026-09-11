@@ -1606,29 +1606,29 @@ class Example
 
 | Ресурс | Описание |
 | --- | --- |
-| [Exercism: PHP](https://exercism.org/tracks/php) | Задачи по PHP на Exercism с менторской проверкой. |
-| [HackerRank: PHP](https://www.hackerrank.com/domains/php) | Раздел «PHP» в тренажёре HackerRank. |
-| [PHP: The Right Way](https://phptherightway.com/) | Руководство по лучшим практикам PHP — на английском. |
-| [PHP.net](https://www.php.net/docs.php) | Официальная документация PHP — справочник функций и синтаксиса. |
-| [PHP Academy](https://www.php.net/manual/ru/) | Русскоязычная документация PHP. |
-| [Laracasts](https://laracasts.com/) | Уроки по PHP и Laravel от Джеффри Уэя. |
+| Exercism: PHP — https://exercism.org/tracks/php | Задачи по PHP на Exercism с менторской проверкой. |
+| HackerRank: PHP — https://www.hackerrank.com/domains/php | Раздел «PHP» в тренажёре HackerRank. |
+| PHP: The Right Way — https://phptherightway.com/ | Руководство по лучшим практикам PHP — на английском. |
+| PHP.net — https://www.php.net/docs.php | Официальная документация PHP — справочник функций и синтаксиса. |
+| PHP Academy — https://www.php.net/manual/ru/ | Русскоязычная документация PHP. |
+| Laracasts — https://laracasts.com/ | Уроки по PHP и Laravel от Джеффри Уэя. |
 
 ---
 
 ## Литература
 
-- [Официальная документация PHP (рус.)](https://www.php.net/manual/ru/) — справочник языка и функций.
-- [Основы синтаксиса PHP (рус.)](https://www.php.net/manual/ru/language.basic-syntax.php)
-- [Операторы PHP (рус.)](https://www.php.net/manual/ru/language.operators.php)
-- [Управляющие конструкции и match (рус.)](https://www.php.net/manual/ru/language.control-structures.php)
-- [Классы и объекты (рус.)](https://www.php.net/manual/ru/language.oop5.php)
-- [Атрибуты в PHP 8](https://www.php.net/manual/ru/language.attributes.php)
-- [PHP: The Right Way (рус.)](https://phptherightway.com/ru) — рекомендации «как правильно».
-- [PHP FIG — PSR-стандарты](https://www.php-fig.org/psr/)
-- [Документация PDO (рус.)](https://www.php.net/manual/ru/book.pdo.php)
-- [Документация PHP-FPM (рус.)](https://www.php.net/manual/ru/install.fpm.php)
-- [Официальная документация Composer](https://getcomposer.org/doc/)
-- [PHP-сообщество и статьи на русском — Habr](https://habr.com/ru/hub/php/)
-- [Туториалы и статьи по PHP — dev.to](https://dev.to/t/php)
+- Официальная документация PHP (рус.) — https://www.php.net/manual/ru/ — справочник языка и функций.
+- Основы синтаксиса PHP (рус.) — https://www.php.net/manual/ru/language.basic-syntax.php
+- Операторы PHP (рус.) — https://www.php.net/manual/ru/language.operators.php
+- Управляющие конструкции и match (рус.) — https://www.php.net/manual/ru/language.control-structures.php
+- Классы и объекты (рус.) — https://www.php.net/manual/ru/language.oop5.php
+- Атрибуты в PHP 8 — https://www.php.net/manual/ru/language.attributes.php
+- PHP: The Right Way (рус.) — https://phptherightway.com/ru — рекомендации «как правильно».
+- PHP FIG — PSR-стандарты — https://www.php-fig.org/psr/
+- Документация PDO (рус.) — https://www.php.net/manual/ru/book.pdo.php
+- Документация PHP-FPM (рус.) — https://www.php.net/manual/ru/install.fpm.php
+- Официальная документация Composer — https://getcomposer.org/doc/
+- PHP-сообщество и статьи на русском — Habr — https://habr.com/ru/hub/php/
+- Туториалы и статьи по PHP — dev.to — https://dev.to/t/php
 
 *Учебник написан для импорта в Joplin и Obsidian. Все примеры рассчитаны на PHP 8.3 и совместимы с 8.1+.*
